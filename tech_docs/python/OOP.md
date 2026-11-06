@@ -83,7 +83,7 @@ class Dog(Animal):
     def __init__(self, name, animal_type):
         super().__init__(name, animal_type)
 
-# creating a child class  
+
 class Cat(Animal):
     def __init__(self, name, animal_type):
         super().__init__(name, animal_type)
@@ -161,5 +161,5 @@ for animal in animals:
     animal.move()
 ```
 
-## Conclusion
+### Conclusion
 Object-Oriented Programming encourages modularity, scalability, and reusability, making complex applications easier to manage. Being an OOP-friendly language, Python enables efficient organization of code through object interactions. This approach improves code maintainability by structuring it in a logical and hierarchical way. OOP is widely used in software development, game design, GUI applications, and data modeling, ensuring flexibility and efficiency.
